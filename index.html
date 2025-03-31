@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zwota Services - Import & Export</title>
+    <link rel="icon" type="image/png" href="images/zwota loga.jpg">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        body { font-family: 'Poppins', sans-serif; }
+        .navbar { background-color: #2D4D26; }
+        .navbar-brand, .nav-link { color: white !important; }
+        .navbar-brand img { height: 50px; margin-right: 10px; }
+        .hero { background: url('https://source.unsplash.com/1600x900/?logistics,export') no-repeat center center/cover; height: 80vh; display: flex; align-items: center; justify-content: center; color: white; text-align: center; padding: 20px; }
+        .hero h1 { font-weight: bold; text-shadow: 2px 2px 5px rgba(0,0,0,0.5); }
+        .about, .contact { background-color: #A2C65D; padding: 50px 0; }
+        .services { background-color: #2D4D26; color: white; padding: 50px 0; }
+        .footer { background-color: #2D4D26; color: white; text-align: center; padding: 15px 0; }
+        .social-icons a { color: white; font-size: 20px; margin: 0 10px; transition: 0.3s; }
+        .social-icons a:hover { color: #A2C65D; }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/zwota loga.jpg" alt="Zwota Logo"> ZWOTA SERVICES
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero" id="home">
+        <div class="container">
+            <h1>Reliable Import & Export Solutions</h1>
+            <p>Connecting businesses worldwide with seamless trade</p>
+            <a href="#services" class="btn btn-light">Explore Services</a>
+        </div>
+    </header>
+
+    <section class="about text-center" id="about">
+        <div class="container">
+            <h2>About Zwota Services</h2>
+            <p>Zwota Services is a global leader in international trade, offering seamless import and export solutions for businesses worldwide.</p>
+            <img src="images/zwota loga.jpg" class="img-fluid mt-3" alt="About Zwota Services">
+        </div>
+    </section>
+
+    <section class="services text-center" id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="row mt-4">
+                <div class="col-md-4"><i class="fas fa-truck fa-3x"></i>
+                    <h4>Global Logistics</h4>
+                    <p>Efficient and secure worldwide shipping.</p>
+                </div>
+                <div class="col-md-4"><i class="fas fa-box-open fa-3x"></i>
+                    <h4>Custom Clearance</h4>
+                    <p>Hassle-free import/export documentation.</p>
+                </div>
+                <div class="col-md-4"><i class="fas fa-globe fa-3x"></i>
+                    <h4>Trade Consultation</h4>
+                    <p>Helping businesses expand beyond borders.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact text-center" id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Get in touch with us for your trading needs.</p>
+            <form action="#" method="POST">
+                <div class="mb-3">
+                    <input type="text" class="form-control" placeholder="Your Name" required>
+                </div>
+                <div class="mb-3">
+                    <input type="email" class="form-control" placeholder="Your Email" required>
+                </div>
+                <div class="mb-3">
+                    <textarea class="form-control" rows="4" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-dark">Send Message</button>
+            </form>
+            <div class="social-icons mt-4">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Zwota Services | All Rights Reserved</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
